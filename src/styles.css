@@ -3,3 +3,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 body { padding-bottom: 70px; }
+.btn-mg-10{
+    margin-left: 10px;
+}
