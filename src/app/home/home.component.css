@@ -3,7 +3,7 @@
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:#FF8C00;
+    
 }
 
 @media (min-width:500px){
@@ -26,7 +26,8 @@
   padding-left: 10px;
   width: 330px;
   color: white;
-  background-color: #FF7F50;
+  font-size: 20px;
+
   float: left;
   z-index: 3;
   bottom: 0px;
@@ -54,22 +55,22 @@
   font-size: 70px;
   width: 50px;
   height: 50px;
-  border: 1px solid red;
   margin-left: 279px;
-  margin-top: 160px;
+  margin-top: 140px;
   z-index: 1;
   position: absolute;
   color: green;
 }
 
 .not-like{
+  font-size: 70px;
   width: 50px;
   height: 50px;
-  border: 1px solid green;
   float: left;
   z-index: 1;
   position: absolute;
-  margin-top: 160px;
+  margin-top: 140px;
+  color: red;
  
 }
 .element-animation-like{
