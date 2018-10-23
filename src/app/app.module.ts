@@ -15,14 +15,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule, 
     MatCheckboxModule,
     NgbModule.forRoot(),
+    routing
     
   ],
   providers: [],
